@@ -2,6 +2,12 @@ name: Actions Workflow
 
 on: [push]
 
+# on:
+#   schedule:
+#     -cron: "0/5 * * * *"
+#   pull_request: 
+#     types: [closed,assigned, opened, reopened]
+
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
