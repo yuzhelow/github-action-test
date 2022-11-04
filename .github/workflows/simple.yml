@@ -6,9 +6,14 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps: 
-      - name: echo a string
-        run: echo " Hello Git"
-      - name: multiline script
+      - name: echo test
+        run: echo "Hello Git"
+      - name: echo npm and node version
         run: |
           node -v
           npm -v
+      - name: python Commands
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python
