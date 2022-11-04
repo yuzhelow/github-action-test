@@ -10,6 +10,11 @@ jobs:
         run: |
           pwd 
           ls
+      - name: List File after Checkout
+        uses: action/checkout@v1
+        run: |
+          pwd
+          ls -a
       - name: Simple JS Action
         id: greet
         uses: actions/hello-world-javascript-action@v1
