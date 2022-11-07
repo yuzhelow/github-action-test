@@ -14,7 +14,7 @@ on: [push]
 #       tags:
 #         -va.*
 #       paths:
-#         -'**.js' # will match any file that match javascript
+#         -'**.js' # will match any file that match
 #   repositary_dispatch:
 #     types: [build]
 #   schedule:
