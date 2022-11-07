@@ -15,7 +15,7 @@ jobs:
           - os: ubuntu-latest
             node_version: 6
           - os: macos-latest
-            node-version: 8
+            node_version: 8
       
 
       #fail-fast: true #if one of these fail, other will stop
